@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Store - Registration</title>
+  <link rel="stylesheet" href="assets/index.css">
+</head>
+<body>
+
+  <h2>Book Store</h2>
+  <h2>Registration Form</h2>
+
+  <button id="showRegisterFormButton">Register</button>
+  <button id="showLoginFormButton">Login</button>
+  
+  <div class="main-content">
+    <form id="registrationForm" class="userForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="nickname">Nickname:</label>
+      <input type="text" id="nickname" name="nickname" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+      <input type="submit" value="Register">
+    </form>
+
+    <form id="loginForm" class="userForm">
+      <label for="loginEmail">Email:</label>
+      <input type="email" id="loginEmail" name="loginEmail" required><br>
+
+      <label for="loginPassword">Password:</label>
+      <input type="password" id="loginPassword" name="loginPassword" required><br>
+
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Vlad Khatuntsev. All rights reserved.</p>
+  </footer>
+
+  <script src="assets/User.js"></script>
+  <script src="assets/Book.js"></script>
+  <script src="assets/App.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
